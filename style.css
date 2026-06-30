@@ -1,0 +1,59 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0d0d0d;
+  color:white;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:black;
+  position:sticky;
+  top:0;
+}
+
+.menu{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  background:#1c1c1c;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+}
+
+.card img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+button{
+  padding:10px;
+  margin-top:10px;
+  background:gold;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.cart{
+  background:#111;
+  padding:20px;
+  margin-top:20px;
+}
+
+.order-btn{
+  width:100%;
+  background:green;
+  color:white;
+  padding:15px;
+  font-size:16px;
+}
